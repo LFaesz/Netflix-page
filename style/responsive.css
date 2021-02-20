@@ -1,0 +1,20 @@
+@media screen and (max-width:890px){
+    header .container{
+        display: flex;
+        flex-direction: column; /* quando for em tablet ou width 
+        < 869px vai mudar para essas funções */
+    }
+
+    .botao{
+        margin-top: 5px; /* 5px de distancia de um botao para o outro em relação a altura */
+        width: 190px; /* Aumenta a largura */
+        height: 60px; /* aumenta a altura */
+    }
+}
+
+@media screen and (min-width: 1000px){  
+    .descricao{
+        width: 50%;  /* quando em tela cheia vai mudar a descrição
+                     e deixar mais bonitinho ksksks */
+    }
+}
